@@ -1,32 +1,19 @@
-/*
-Para conversacion en bloque
-*/
-//Coemntario de una sola linea
-//variable
-//Cadena
+var num1; //Numero entero
+var cent;
+var mil;
+num1 = parseInt(prompt("ingresar cantidad de mtros","")); 
 
-//programa 1 ingresar el nombre y mostrar el promedio
-var nombre;
-var nota1;
-var nota2;
-var nota3;
-var resultado;
-nombre = prompt( "Ingresar nombre","");
-nota1 = parseInt(prompt("ingresar nota1","")); 
-nota2 = parseInt(prompt("ingresar nota2"));
-nota3 = parseInt(prompt("ingresar nota3"));
-resultado= ((nota1+nota2+nota3)/3);
+cent = ((num1)* 100);
+mil = ((num1)* 1000);
+
 //document.write("Resultado");
-document.write("Hola " + nombre + " tu promedio es: " + resultado);
+
+document.write("Hola " + num1 + "metro(s) en Centimetro: " + cent);
+
+document.write("y " + num1 + "metro(s) en Milimetros: " + mil);
 
 
-//Ejercicio:
-//var num1 = 10;
-//var num2 = 20;
-//var promedio = (num1+num2)/2;
 
-//alert(promedio);
-//console.log (nombre + "" + promedio)
 
-//para escribir en la pagina web
-//document. querySelctor("body")
+
+
